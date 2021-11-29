@@ -88,5 +88,6 @@
         </svg>
         <div class="itemChoser" id="itemSliding"></div>
     </div>
+    <p>Bilder sind von <a href="pixabay.com">Pixabay.com</a></p>
 </body>
 </html>
