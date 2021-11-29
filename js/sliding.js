@@ -52,7 +52,8 @@ function moveImg(index,indexPos) {
 };
 
 function setSlidingIndex(index) {
-	// loadImages(index);
+	clearInterval(sliderInterval)
+	animSlide(index);
 }
 
 function animSlide (index) {
