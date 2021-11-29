@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: darkred;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.itemChoser {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.item {
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    border: 1px solid #000;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity .5s;
+}
+
+.itemActive {
+    opacity: 1 !important;
+}
