@@ -53,21 +53,3 @@
     0%  { opacity: 1; }
     100% { opacity: 0; }
 }
-
-.arrow {
-    position: absolute;
-    top: 50%;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
-
-.left {
-    left: 25px;
-    transform: rotate(-90deg) translateY(-50%);
-}
-
-.right {
-    right: 25px;
-    transform: rotate(90deg) translateY(-50%);
-}

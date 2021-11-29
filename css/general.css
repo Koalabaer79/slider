@@ -44,3 +44,26 @@ p {
 .itemActive {
     opacity: 1 !important;
 }
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.arrow:hover {
+    fill: #fff;
+}
+
+.left {
+    left: 25px;
+    transform: rotate(-90deg) translateY(-50%);
+}
+
+.right {
+    right: 25px;
+    transform: rotate(90deg) translateY(-50%);
+}

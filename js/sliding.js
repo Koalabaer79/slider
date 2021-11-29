@@ -75,7 +75,7 @@ function slidingItem () {
 		var item = document.createElement('div');
 		item.id = "itemSliding"+i;
 		item.className = 'item';
-		item.setAttribute('onclick','setFadingIndex('+i+')');
+		item.setAttribute('onclick','setSlidingIndex('+i+')');
 		itemChoser.appendChild(item);
 		i++;
 	});

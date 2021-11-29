@@ -1,4 +1,5 @@
-Simple slider using PHP to import images from a folder and generate dynamically a slider from these given images.
+Simple slider using PHP to import images from a folder and generate dynamically a slider from these given images. Just throw the chosen images into the "img" folder and the scripts dynamically generate the desired slider.
+
 Two versions
 - Fading option, image is loaded one after another using a fade-in and fade-out animation
 	- Images are transformed into a fix height
